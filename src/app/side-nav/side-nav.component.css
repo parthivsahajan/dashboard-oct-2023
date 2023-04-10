@@ -1,12 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-@import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
-html,body{height: 100%;}
-body{margin: 0;}
+.profile-card{
+    text-align: center;
+}
+
+
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+a:hover{
+    background-color: rgb(144, 142, 142);
+}
 
 /*to style side bar using -webkit-scrollbar */
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
 
 ::-webkit-scrollbar-track {
